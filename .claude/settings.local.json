@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($f = Get-Item .\\\\frontend\\\\src\\\\favicon.ico; Write-Output \"Name: $\\($f.Name\\)\"; Write-Output \"Size: $\\($f.Length\\) bytes\")",
+      "PowerShell(wsl -d Ubuntu-24.04 -- bash -c \"ps -ef | grep -E 'ng serve|ng-build' | grep -v grep\")",
+      "PowerShell(wsl -d Ubuntu-24.04 -- bash -c \"curl -s http://127.0.0.1:4200/styles.css | head -100\")",
+      "PowerShell(wsl -d Ubuntu-24.04 -- bash -c \"curl -s http://127.0.0.1:4200/styles.css | grep -A 5 'lilac-dark'\")"
+    ]
+  }
+}
