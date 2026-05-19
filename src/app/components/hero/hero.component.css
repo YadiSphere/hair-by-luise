@@ -45,8 +45,8 @@
 
   /* 2. Mittlere Spalte (Das lila Logo-Bild) */
   .hero-img-round {
-    width: 380px; /* Behält die schöne Größe */
-    height: 380px;
+    width: 500px; /* Behält die schöne Größe */
+    height: 500px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
