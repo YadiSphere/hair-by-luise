@@ -1,0 +1,35 @@
+.btn-book {
+  background-color: var(--lilac-dark);
+  color: #f1edfa;
+  border: none;
+  font-family: 'Poppins', system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(107, 91, 149, 0.3);
+  transition: background-color 0.25s ease,
+              transform 0.25s ease,
+              box-shadow 0.25s ease;
+}
+
+.btn-book:hover {
+  background-color: var(--blue);
+  color: white;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 8px 20px rgba(59, 89, 152, 0.45);
+}
+
+.btn-book:active {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 3px 8px rgba(59, 89, 152, 0.35);
+}
+
+.navbar {
+  background-color: var(--cream);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.nav-link:hover {
+  color: var(--lilac-dark) !important;
+  font-weight: 600;
+  transition: color 0.25s ease;
+}
